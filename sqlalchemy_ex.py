@@ -42,5 +42,3 @@ print(pd.DataFrame(data,columns=['_logdate_','serveraccountid','level']))
 print(pd.DataFrame(data,columns=['_logdate_','serveraccountid','level']).dtypes)
 
 session.close()
-
-====
